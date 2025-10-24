@@ -1,0 +1,394 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    background: #f0f1f3;
+    height: 100%;
+}
+* {
+    transition: .4s !important;
+}
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansHairline.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Facebook Sans - Light (300) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Facebook Sans - Light Italic (300 italic) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Facebook Sans - Regular (400) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Facebook Narrow App Regular (400, alt style) */
+@font-face {
+  font-family: "FacebookNarrow";
+  src: url("/fonts/FacebookNarrowAppRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Facebook Sans - Italic (400 italic) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Facebook Sans - Bold (700) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Facebook Sans - Bold Italic (700 italic) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Facebook Sans - Heavy (900) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansHeavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Facebook Sans - Heavy Italic (900 italic) */
+@font-face {
+  font-family: "FacebookSans";
+  src: url("/fonts/FacebookSansHeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* === Work Sans Font Family === */
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* ===============================
+   KindSans Font Family
+   =============================== */
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-thinitalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-lightitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-regularitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-mediumitalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-semibolditalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-bolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-heavyitalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KindSans';
+  src: url('/fonts/kindsans-blackitalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+#root {
+    background: #f0f1f3;
+    font-family: 'Work Sans';
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+/* {
+    transition: 0.3s !important;
+} */
+.btn { 
+    @apply font-semibold p-2 rounded-xl hover:-translate-y-1 text-center;
+}
+.btnp { 
+    @apply font-semibold rounded-lg hover:-translate-y-1 text-center;
+}
+.bluep {
+    @apply bg-[rgba(5,131,242,0.025)] text-[#0583f2];
+}
+.blue {
+    @apply bg-[#0583f2] text-white ;
+}
+.orange {
+    @apply bg-[#FD6E07] text-white ;
+}
+.red {
+    @apply bg-[#ED3F2F] text-white ;
+}
+.purple {
+    @apply bg-[#5000f0] text-white ;
+}
+.purplep {
+    @apply text-[#5000f0];
+}
+.green {
+    @apply bg-[#4BB543] text-white;
+}
+.greenp {
+    @apply text-[#4bb543] ;
+}
+.text {
+    @apply font-bold text-4xl ml-2 mr-2 ;
+}
+.wide {
+    @apply w-[90%] ml-[5%] ;
+}
+.wider {
+    @apply w-[95%] ml-[.25%] ;
+}
+.shadoww {
+    @apply shadow-md hover:shadow-lg ;
+}
+.text-blue {
+    @apply text-[#0583f2];
+}
+.no {
+    @apply bg-red-500 ;
+}
+.blue-disabled {
+    @apply bg-[rgba(5,131,242,.3)] text-[rgba(255,255,255,.6)];
+}
+.centerh {
+    @apply justify-center;
+}
+.centerv {
+    @apply items-center;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+}
+.gapp {
+    @apply gap-5 ;
+}
+.g2 {
+    @apply gap-2 ;
+}
+.gblack {
+    @apply text-[#909090];
+}
+.gwhite {
+    @apply text-[rgba(255,255,255,.4)];
+}
+.darkinput {
+    @apply outline-none bg-[rgba(0,0,0,.3)] p-2 text-white shadow-md hover:shadow-[rgba(5,131,242,.1)];
+}
+
+
+.hide {
+    @apply pointer-events-none opacity-0 fixed transition-all duration-300; 
+}
+.show {
+    @apply pointer-events-auto opacity-100 h-auto transition-all duration-300;
+}
+.bgrey {
+    @apply bg-[rgba(0,0,0,0.5)] ;
+}
+.bwhite {
+    background: rgba(255,255,255,.85);
+}
+.black {
+    @apply bg-black text-white ;
+}
+.bablur {
+    @apply backdrop-blur-md ;
+}
+.asp {
+    aspect-ratio:500/283;
+    
+}
+.showdark {
+    @apply bg-[rgba(0,0,0,0.45)] pointer-events-auto opacity-100 ;
+}
+.hidedark {
+     @apply pointer-events-none opacity-0 fixed transition-all duration-300 bg-[transparent];
+}
+.line {
+    @apply wide bg-[rgba(0,0,0,.2)] p-[1px] rounded  mt-[1.5rem] mb-[1.5rem];
+}
+.liner {
+    @apply wide bg-[rgba(0,0,0,.2)] p-[1px] rounded  mt-0 mb-[1.5rem];
+}
+.scalo {
+    transform: scaleY(0);
+}
+.scali {
+    transform: scaleY(1);
+}
+.blueshadow {
+    box-shadow:0px 2px 5px rgba(5,132,255,.6) ;
+}
