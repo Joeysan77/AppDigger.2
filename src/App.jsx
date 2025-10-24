@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import './index.css'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Header } from './components/header.jsx'
 import { Platform } from './components/platform.jsx'
 import { Trendingcat } from './components/trendingcat.jsx'
@@ -37,6 +38,7 @@ function App() {
       <Recommended />
       <Interested />
       <NavBar />
+      <SpeedInsights/>
     </>
   )
 }
