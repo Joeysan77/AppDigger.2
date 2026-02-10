@@ -38,7 +38,7 @@ export function NavBar() {
             </div>
             
             <div className="green blueshadow px-5 py-4 rounded-full">
-                <i className="fas fa-search p-1">Sammy</i>
+                <i className="fas fa-search p-1"></i>
             </div>
             
         </div>
